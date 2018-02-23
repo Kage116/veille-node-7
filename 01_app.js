@@ -35,20 +35,6 @@ app.get('/', (req, res) => {
 	}) 
 })
 
-
-
-// app.get('/peupler', (req, res) => {
-// 	let crit = util.inspect(peupler());
-
-// 	db.collection('adresse').save(peupler(), (err, result) => {
-// 		if (err) return console.log(err);
-// 	})
-
-//  	res.redirect('/');
-// })
-
-
-
 app.post('/ajouter', (req, res) => {
 	db.collection('adresse').save(req.body, (err, result) => {
 		if (err) return console.log(err)
