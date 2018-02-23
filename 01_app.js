@@ -52,7 +52,13 @@ app.get('/vider', (req, res) => {
 //  	res.redirect('/');
 // })
 
-
+app.get('/peupler',function(req,res) {
+	db.collection('adresse').insertMany(peupler(), (err, result) => {
+		if (err) return console.log(err)
+		console.log('sauvegarder dans la BD')
+		res.redirect('/')
+	})
+})
 
 app.post('/ajouter', (req, res) => {
 	db.collection('adresse').save(req.body, (err, result) => {
@@ -92,12 +98,5 @@ app.get('/trier/:cle/:ordre', (req, res) => {
 		ordre = (req.params.ordre == "asc" ? "desc" : "asc")
 		res.render('gabarit.ejs', {adresse: resultat, cle, ordre})
 	})
-	
-app.get('/peupler',function(req,res) {
-	db.collection('adresse').insertMany(peupler(), (err, result) => {
-		if (err) return console.log(err)
-		console.log('sauvegarder dans la BD')
-		res.redirect('/')
-	})
 })
-})
+
