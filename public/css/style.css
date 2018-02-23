@@ -73,7 +73,7 @@ body table th a:hover {
   font-weight: 700;
 }
 body table #idDelete a {
-  color: #FF0000;
+  color: red;
 }
 body table #idSave a {
   color: #00FF00;
