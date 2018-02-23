@@ -1,1 +1,122 @@
-header{padding:2%;background-color:#1AF;color:#333}header nav a{text-decoration:none;font-size:20px;padding:0 2% 0 0;color:#333}header nav a:hover{font-weight:700;text-decoration:underline}header section{display:flex;justify-content:center;padding:2% 0}header section .fa-5x{font-size:5em;justify-content:center!important;display:flex!important}body{display:flex;flex-direction:column;margin:0;background-color:#333}body .mon_formulaire{display:none}body #formAjouter{display:flex;align-self:center;width:70%;margin:2%}body #formAjouter input{width:25%;margin:0 1%}body #formAjouter input:last-of-type{width:5%;cursor:pointer}body table{font-family:arial,sans-serif;border-collapse:collapse;width:80%;display:flex;align-self:center}body table tr td{width:20%}body table td,body table th,body table tr{border:1px solid #DCDCDC;text-align:left;padding:1%}body table th{background-color:#333}body table th a{text-decoration:none;font-weight:400;color:#DCDCDC}body table th a:hover{text-decoration:underline;font-weight:700}body table #idDelete a{color:red}body table #idSave a{color:#0F0}body table tr{background-color:#777}body table tr:first-child{font-weight:700}body table tr:nth-child(even){background-color:#AAA}body #tableauNone{display:none}footer{display:flex;justify-content:center;margin:0 2%}footer ul{width:15%;list-style-type:none;margin:5%;padding:0;text-align:center}footer li{font-size:20px;font-weight:400;padding:5%;border-bottom:1px solid #DCDCDC;color:#DCDCDC}footer li:last-child{border:none}footer li a{text-decoration:none;color:#DCDCDC}footer li a:hover{text-decoration:underline;font-weight:700}
+header {
+  padding: 2%;
+  background-color: #11AAFF;
+  color: #333333;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 2% 0 0;
+  color: #333333;
+}
+header nav a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+header section {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+header section .fa-5x {
+  font-size: 5em;
+  justify-content: center !important;
+  display: flex !important;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #333333;
+}
+body #formAjouter {
+  display: flex;
+  align-self: center;
+  width: 70%;
+  margin: 2%;
+}
+body #formAjouter input {
+  width: 25%;
+  margin: 0 1%;
+}
+body #formAjouter input:last-of-type {
+  width: 5%;
+  cursor: pointer;
+}
+body table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  display: flex;
+  align-self: center;
+}
+body table tr td {
+  width: 20%;
+}
+body table tr,
+body table td,
+body table th {
+  border: 1px solid #DCDCDC;
+  text-align: left;
+  padding: 1%;
+}
+body table th {
+  background-color: #333333;
+}
+body table th a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #DCDCDC;
+}
+body table th a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+body table #idDelete a {
+  color: #FF0000;
+}
+body table #idSave a {
+  color: #00FF00;
+}
+body table tr {
+  background-color: #777777;
+}
+body table tr:first-child {
+  font-weight: 700;
+}
+body table tr:nth-child(even) {
+  background-color: #AAAAAA;
+}
+body #tableauNone {
+  display: none;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 2%;
+}
+footer ul {
+  width: 15%;
+  list-style-type: none;
+  margin: 5%;
+  padding: 0;
+  text-align: center;
+}
+footer li {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5%;
+  border-bottom: 1px solid #DCDCDC;
+  color: #DCDCDC;
+}
+footer li:last-child {
+  border: none;
+}
+footer li a {
+  text-decoration: none;
+  color: #DCDCDC;
+}
+footer li a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
