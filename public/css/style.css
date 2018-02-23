@@ -1,13 +1,12 @@
 header {
   padding: 2%;
-  background-color: #11AAFF;
-  color: #333333;
+  background-color: darkred;
 }
 header nav a {
   text-decoration: none;
   font-size: 20px;
   padding: 0 2% 0 0;
-  color: #333333;
+  color: black;
 }
 header nav a:hover {
   font-weight: 700;
@@ -56,21 +55,20 @@ body table tr td {
 body table tr,
 body table td,
 body table th {
-  border: 1px solid black;
+  border: 1px solid #DCDCDC;
   text-align: left;
   padding: 1%;
 }
 body table th {
-  background-color: black;
+  background-color: #333333;
 }
 body table th a {
   text-decoration: none;
   font-weight: 400;
-  color: #DCDCDC;
+  color: white;
 }
 body table th a:hover {
-  text-decoration: underline;
-  font-weight: 700;
+  font-weight: 500;
 }
 body table #idDelete a {
   color: red;
@@ -94,29 +92,4 @@ footer {
   display: flex;
   justify-content: center;
   margin: 0 2%;
-}
-footer ul {
-  width: 15%;
-  list-style-type: none;
-  margin: 5%;
-  padding: 0;
-  text-align: center;
-}
-footer li {
-  font-size: 20px;
-  font-weight: 400;
-  padding: 5%;
-  border-bottom: 1px solid #DCDCDC;
-  color: #DCDCDC;
-}
-footer li:last-child {
-  border: none;
-}
-footer li a {
-  text-decoration: none;
-  color: #DCDCDC;
-}
-footer li a:hover {
-  text-decoration: underline;
-  font-weight: 700;
 }
