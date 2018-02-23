@@ -1,31 +1,31 @@
 "use strict";
 
 const tabNom = [
-	"Beauchesne",
-	"L'Heureux",
-	"Lemay",
-	"Paquette"
+	"L'Heureuxne",
+	"",
+	"",
+	""
 ]
 
 const tabPrenom = [
-	"Antoine",
 	"Max",
-	"Audrey",
-	"Simon"
+	"",
+	"",
+	""
 ]
 
 const tabTelephone = [
-	"514-717-7777",
-	"514-727-7777",
-	"514-737-7777",
-	"514-747-7777"
+	"514-123-4567",
+	"514-891-2345",
+	"514-678-9123",
+	"514-456-7891"
 ]
 
 const tabCourriel = [
 	"email@gmail.com",
 	"email@videotron.ca",
-	"email@bell.ca",
-	"email@yahoo.com",
+	"email@live.ca",
+	"email@outlook.com",
 	"email@hotmail.com"
 ]
 

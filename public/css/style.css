@@ -28,6 +28,9 @@ body {
   margin: 0;
   background-color: #333333;
 }
+body .mon_formulaire {
+  display: none;
+}
 body #formAjouter {
   display: flex;
   align-self: center;
