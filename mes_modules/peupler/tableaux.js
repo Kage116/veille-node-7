@@ -2,16 +2,16 @@
 
 const tabNom = [
 	"L'Heureuxne",
-	"",
-	"",
-	""
+	"Vallée",
+	"Tremblay",
+	"Beets"
 ]
 
 const tabPrenom = [
 	"Max",
-	"",
-	"",
-	""
+	"Marc",
+	"Phil",
+	"Fred"
 ]
 
 const tabTelephone = [
