@@ -1,0 +1,150 @@
+header {
+	padding: 2%;
+	background-color: #11AAFF;
+	color: #333333;
+
+	nav a {
+		text-decoration: none;
+		font-size: 20px;
+		padding: 0 2% 0 0;
+		color: #333333;
+	}
+
+	nav a:hover {
+		font-weight: 700;
+		text-decoration: underline;
+	}
+
+	section {
+		display: flex;
+		justify-content: center;
+		padding: 2% 0;
+
+		.fa-5x {
+			font-size: 5em;
+			justify-content: center !important;
+			display: flex !important;
+		}
+	}
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	background-color:#333333;
+
+	.mon_formulaire {
+		display: none;
+	}
+
+	#formAjouter {
+		display: flex;
+		align-self: center;
+		width: 70%;
+		margin: 2%;
+	}
+
+	#formAjouter input {
+		width: 25%;
+		margin: 0 1%;
+	}
+
+	#formAjouter input:last-of-type {
+		width: 5%;
+		cursor: pointer;
+	}
+
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 80%;
+		display: flex;
+		align-self: center;
+
+		tr td {
+			width: 20%;
+		}
+
+		tr, td, th {
+			border: 1px solid #DCDCDC;
+			text-align: left;
+			padding: 1%;
+		}
+
+		th {
+			background-color: #333333;
+		}
+
+		th a {
+			text-decoration: none;
+			font-weight: 400;
+			color: #DCDCDC;
+		}
+
+		th a:hover {
+			text-decoration: underline;
+			font-weight: 700;
+		}
+
+		#idDelete a {
+			color: #FF0000;
+		}
+
+		#idSave a {
+			color: #00FF00;
+		}
+
+		tr {
+			background-color: #777777;
+		}
+
+		tr:first-child {
+			font-weight: 700;
+		}
+
+		tr:nth-child(even) {
+			background-color: #AAAAAA;
+		}
+	}
+
+	#tableauNone {
+		display: none;
+	}
+}
+
+footer {
+	display:flex;
+	justify-content: center;
+	margin: 0 2%;
+
+	ul {
+		width: 15%;
+		list-style-type: none;
+		margin: 5%;
+		padding: 0;
+		text-align: center;
+	}
+	 
+	li {
+		font-size: 20px;
+		font-weight: 400;
+		padding: 5%;
+		border-bottom: 1px solid #DCDCDC;
+		color: #DCDCDC;
+	}
+	 
+	li:last-child {
+		border: none;
+	}
+	 
+	li a {
+		text-decoration: none;
+		color: #DCDCDC;
+	}
+	 
+	li a:hover {
+		text-decoration: underline;
+		font-weight: 700;
+	}
+} 
