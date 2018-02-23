@@ -56,7 +56,7 @@ body table tr td {
 body table tr,
 body table td,
 body table th {
-  border: 1px solid #DCDCDC;
+  border: 1px solid black;
   text-align: left;
   padding: 1%;
 }
