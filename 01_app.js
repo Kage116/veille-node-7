@@ -35,12 +35,7 @@ app.get('/', (req, res) => {
 	}) 
 })
 
-app.get('/vider', (req, res) => {
-	db.collection('adresse').remove({}, (err, resultat) => {
-		if (err) return console.log(err)
-		res.redirect('/')
-	})
-})
+
 
 // app.get('/peupler', (req, res) => {
 // 	let crit = util.inspect(peupler());
@@ -98,6 +93,13 @@ app.get('/peupler',function(req,res) {
 	db.collection('adresse').insertMany(peupler(), (err, result) => {
 		if (err) return console.log(err)
 		console.log('sauvegarder dans la BD')
+		res.redirect('/')
+	})
+})
+
+app.get('/vider', (req, res) => {
+	db.collection('adresse').remove({}, (err, resultat) => {
+		if (err) return console.log(err)
 		res.redirect('/')
 	})
 })
