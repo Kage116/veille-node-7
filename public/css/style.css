@@ -76,7 +76,7 @@ body table #idDelete a {
   color: red;
 }
 body table #idSave a {
-  color: #00FF00;
+  color: green;
 }
 body table tr {
   background-color: #777777;
